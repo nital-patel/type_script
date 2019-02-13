@@ -2,47 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21d753ce-0a9a-4ce3-be20-99ac4487fbaf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/6292180984.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/_relay_.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/_relay__data/relay-8f24b3d6fd760f8b720cb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/a.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/a_data/css.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/a_data/preview-8222014a50f8588c56d057621cdaf871.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/a_data/preview-d19378a5e5c39360d6cfb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/a_data/webcontainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/analytics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/analytics_002.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/application-3e5c6a0ebb73c10907eb2c0dd9ef3457029d19b097f7ff9c.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/application-fc2efbfe69d8a6f7b80f458bfb144fa52948870ba36eb55ad.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/clear_console-79e7173ef0c724300f0b6d79f40ac921.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/client-2eab4eaa441dec7ed121969653add235.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/client-a326bc1641083e9e64a9b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/common-dd8104c0f806b58266a2b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/css.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/cssMode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/discord-0e647ad92f7db3c2f3019f13eddbfcdb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/editor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/editor_002.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/ext-966e7dd29f49603bc9fcb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/htmlMode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/introjs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/ionicons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/javascript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/jsonMode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/loader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/mixpanel-2-latest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/nr-1118.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/tsMode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/typescript-2f8b9d8c3b2e1e8de45e532c29c41285.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript-aud7rj - StackBlitz_files/typescript.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,8 +19,8 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -78,19 +39,19 @@
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="1" />
+          <entry key="TypeScriptServerServiceImpl" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="103" />
-          <entry key="ts" value="130" />
+          <entry key="ts" value="297" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="103" />
-          <entry key="TypeScript" value="130" />
+          <entry key="TypeScript" value="297" />
         </counts>
       </usages-collector>
     </session>
@@ -99,12 +60,12 @@
     <favorites_list name="Typescript_practise" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -112,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -139,8 +100,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="255" />
-    <option name="y" value="36" />
+    <option name="x" value="187" />
+    <option name="y" value="230" />
     <option name="width" value="988" />
     <option name="height" value="795" />
   </component>
@@ -150,6 +111,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Typescript_practise" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,17 +133,6 @@
               <item name="Typescript_practise" type="b2602c69:ProjectViewProjectNode" />
               <item name="Typescript_practise" type="462c0819:PsiDirectoryNode" />
               <item name="test.ts" type="620a8d5e:NestingTreeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Typescript_practise" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -219,11 +180,12 @@
       <option name="presentableId" value="Default" />
       <updated>1550075699482</updated>
       <workItem from="1550075700641" duration="1593000" />
+      <workItem from="1550078720993" duration="1155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1593000" />
+    <option name="totallyTimeSpent" value="2748000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -235,24 +197,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="255" y="36" width="988" height="795" extended-state="0" />
+    <frame x="187" y="230" width="988" height="795" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" sideWeight="0.50147057" side_tool="true" visible="true" weight="0.24922441" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.24922441" />
       <window_info id="Structure" order="1" sideWeight="0.502193" side_tool="true" weight="0.24922441" />
-      <window_info anchor="bottom" id="TypeScript" weight="0.32941177" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32941177" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.50147057" side_tool="true" weight="0.24922441" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -270,20 +232,18 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/typescript-aud7rj - StackBlitz.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/typescript-aud7rj - StackBlitz.html" />
     <entry file="file://$PROJECT_DIR$/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>

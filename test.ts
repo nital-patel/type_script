@@ -29,3 +29,18 @@ console.log("sum of the scores "+sum)
 var str = '2';
 var str2 = str;
 console.log(str2);
+
+//variable scope
+var global_num = 12     //global variable
+class Numbers {
+    num_val = 13;       //class variable
+    static sval = 10;   //static field
+
+    storeNum():void {
+        var local_num = 14;  //local variable
+    }
+}
+console.log("Global num: "+global_num)
+console.log(Numbers.sval)      //static variable
+var object = new Numbers();
+console.log("Global num: "+object.num_val)

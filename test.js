@@ -28,3 +28,19 @@ console.log("sum of the scores " + sum);
 var str = '2';
 var str2 = str;
 console.log(str2);
+//variable scope
+var global_num = 12; //global variable
+var Numbers = /** @class */ (function () {
+    function Numbers() {
+        this.num_val = 13; //class variable
+    }
+    Numbers.prototype.storeNum = function () {
+        var local_num = 14; //local variable
+    };
+    Numbers.sval = 10; //static field
+    return Numbers;
+}());
+console.log("Global num: " + global_num);
+console.log(Numbers.sval); //static variable
+var object = new Numbers();
+console.log("Global num: " + object.num_val);

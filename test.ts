@@ -1,10 +1,12 @@
+//simple hello world print
 var message:string = "Hello World";
 console.log(message);
 
-
+//number print
 var num:number = 12;
 console.log(num);
 
+//class create and void method use in print message
 class Greeting {
     greet():void {
         console.log("Hello World!!");
@@ -13,12 +15,17 @@ class Greeting {
 var obj = new Greeting();
 obj.greet();
 
-var message:string = "John";
+//var create and compile
+var fullName:string = "John Alab";
 var score1:number = 50;
 var score2:number = 42.50
 var sum = score1 + score2
-console.log("message:"+ message)
+console.log("fullName:" +fullName)
 console.log("first score: "+score1)
 console.log("second score: "+score2)
 console.log("sum of the scores "+sum)
 
+//type assertion
+var str = '2';
+var str2 = str;
+console.log(str2);

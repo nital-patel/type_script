@@ -44,3 +44,8 @@ console.log("Global num: " + global_num);
 console.log(Numbers.sval); //static variable
 var object = new Numbers();
 console.log("Global num: " + object.num_val);
+//negation operator(-)
+var x = 4;
+var y = -x;
+console.log("value of x: ", x); //outputs 4
+console.log("value of y: ", y); //outputs -4

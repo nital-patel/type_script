@@ -109,3 +109,16 @@ function disp_details(id:number,name:string,mail_id?:string) {
 }
 disp_details(123,"John");
 disp_details(111,"mary","mary@xyz.com");
+
+//Rest Parameters
+function addNumbers(...nums:number[]) {
+    var i;
+    var sum:number = 0;
+
+    for(i=0;i<nums.length;i++) {
+        sum = sum + nums[i];
+    }
+    console.log("sum of the numbers",sum)
+}
+addNumbers(1,2,3,4)
+addNumbers(10,10,10,10,10)

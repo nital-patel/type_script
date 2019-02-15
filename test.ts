@@ -60,3 +60,8 @@ console.log(msg)
 var num:number = 2
 var result = num > 0 ?"positive":"non-positive"
 console.log(result)
+
+
+//typeof operator
+var num = 12
+console.log(typeof num);      //

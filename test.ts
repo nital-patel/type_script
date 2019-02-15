@@ -142,3 +142,8 @@ var res = function (a:number,b:number) {
     return a*b;
 };
 console.log(res(12,2))
+
+//The Function Constructor
+var myFunction = new Function("a","b", "return a * b");
+    var mul = myFunction(4,3);
+console.log(mul);

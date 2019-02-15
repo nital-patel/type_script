@@ -58,4 +58,12 @@ var result = num > 0 ? "positive" : "non-positive";
 console.log(result);
 //typeof operator
 var num = 12;
-console.log(typeof num); //
+console.log(typeof num); //output: number
+//while loop
+var n = 5;
+while (n > 5) {
+    console.log("Entered while");
+}
+do {
+    console.log("Entered do_while");
+} while (n > 5);

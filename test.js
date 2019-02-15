@@ -165,3 +165,13 @@ var func = function (x) {
 };
 func(12);
 func("Tom");
+//Optional parentheses for a single parameter
+var display = function (x) {
+    console.log("The function got " + x);
+};
+display(12);
+//Optional braces for a single statement, Empty parentheses for no parameter
+var disp = function () {
+    console.log("Function invoked");
+};
+disp();

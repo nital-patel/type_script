@@ -181,3 +181,15 @@ var func = (x)=> {
 }
 func(12)
 func("Tom")
+
+//Optional parentheses for a single parameter
+var display = x=> {
+    console.log("The function got "+x)
+}
+display(12)
+
+//Optional braces for a single statement, Empty parentheses for no parameter
+var disp =()=> {
+    console.log("Function invoked");
+}
+disp();

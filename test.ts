@@ -157,3 +157,15 @@ function facotrial(number) {
     }
 };
     console.log(facotrial(6));
+
+//Lambda Expression
+//The function returns the sum of 10 and the argument passed.
+var foo = (x:number)=>10 + x
+console.log(foo(100))      //outputs 110
+
+//Lambda statement
+var number = (x:number)=> {
+    x = 10 + x
+    console.log(x)
+}
+number(100)

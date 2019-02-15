@@ -118,3 +118,13 @@ function calculate_discount(price, rate) {
 }
 calculate_discount(1000);
 calculate_discount(1000, 0.30);
+//Anonymous Function
+var massage = function () {
+    return "hello world";
+};
+console.log(massage());
+//Anonymous function with parameters
+var res = function (a, b) {
+    return a * b;
+};
+console.log(res(12, 2));

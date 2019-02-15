@@ -49,7 +49,10 @@ var x = 4;
 var y = -x;
 console.log("value of x: ", x); //outputs 4
 console.log("value of y: ", y); //outputs -4
-
 //string operator: concatenation opreator (+)
 var msg = " hello " + "world";
 console.log(msg);
+//Conditional Operator (?)
+var num = 2;
+var result = num > 0 ? "positive" : "non-positive";
+console.log(result);

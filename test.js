@@ -132,3 +132,14 @@ console.log(res(12, 2));
 var myFunction = new Function("a", "b", "return a * b");
 var mul = myFunction(4, 3);
 console.log(mul);
+//Recursion and TypeScript Functions
+function facotrial(number) {
+    if (number <= 0) {
+        return 1;
+    }
+    else {
+        return (number * facotrial(number - 1));
+    }
+}
+;
+console.log(facotrial(6));

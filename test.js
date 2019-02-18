@@ -451,9 +451,19 @@ console.log(person.lastname);
 var datacard = {
     firstName: "Tom",
     lastName: "Hanks",
-    sayHello: function () { } //Type template 
+    sayHello: function () { } //Type template
 };
 datacard.sayHello = function () {
     console.log("hello " + datacard.firstName);
 };
 datacard.sayHello();
+//Objects as function parameters
+var person = {
+    firstname: "Tom",
+    lastname: "Hanks"
+};
+var invokeperson = function (obj) {
+    console.log("first name :" + obj.firstname);
+    console.log("last name :" + obj.lastname);
+};
+invokeperson(person);

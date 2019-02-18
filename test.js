@@ -211,3 +211,48 @@ console.log(nums[0]);
 console.log(nums[1]);
 console.log(nums[2]);
 console.log(nums[3]);
+//Array Object
+var arr_names = new Array(4);
+for (var i = 0; i < arr_names.length; i++) {
+    arr_names[i] = i * 2;
+    console.log(arr_names[i]);
+}
+// Array Constructor accepts comma separated values
+var names = new Array("Marry", "Tom", "Jack", "Jill");
+for (var i = 0; i < names.length; i++) {
+    console.log(names[i]);
+}
+//Array Destructuring
+var arr = [12, 13];
+var x = arr[0], y = arr[1];
+console.log(x);
+console.log(y);
+//Array Traversal using for…in loop
+var j;
+var nums = [1001, 1002, 1003, 1004];
+for (j in nums) {
+    console.log(nums[j]);
+}
+//Simple Tuple
+var mytuple = [10, "Hello"]; //create a  tuple
+console.log(mytuple[0]);
+console.log(mytuple[1]);
+//Empty Tuple
+var tup = [];
+tup[0] = 12;
+tup[1] = 23;
+console.log(tup[0]);
+console.log(tup[1]);
+//Tuple Operations
+var mytuple = [10, "Hello", "World", "typeScript"];
+console.log("Items before push " + mytuple.length); // returns the tuple size
+mytuple.push(12); // append value to the tuple
+console.log("Items after push " + mytuple.length);
+console.log("Items before pop " + mytuple.length);
+console.log(mytuple.pop() + " popped from the tuple"); // removes and returns the last item
+console.log("Items after pop " + mytuple.length);
+//Destructuring a Tuple
+var a = [10, "hello"];
+var b = a[0], c = a[1];
+console.log(b);
+console.log(c);

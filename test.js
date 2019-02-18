@@ -1,3 +1,16 @@
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    }
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 //simple hello world print
 var message = "Hello World";
 console.log(message);
@@ -256,3 +269,123 @@ var a = [10, "hello"];
 var b = a[0], c = a[1];
 console.log(b);
 console.log(c);
+//Union Type Variable
+var val;
+val = 12;
+console.log("numeric value of val " + val);
+val = "This is a string";
+console.log("string value of val " + val);
+//Union Type and function parameter
+function test(name) {
+    if (typeof name == "string") {
+        console.log(name);
+    }
+    else {
+        var i;
+        for (i = 0; i < name.length; i++) {
+            console.log(name[i]);
+        }
+    }
+}
+test("mark");
+console.log("Printing names array....");
+test(["Mark", "Tom", "Mary", "John"]);
+//Union Type and Arrays
+var array;
+var i;
+array = [1, 2, 4];
+console.log("**numeric array**");
+for (i = 0; i < array.length; i++) {
+    console.log(array[i]);
+}
+array = ["Mumbai", "Pune", "Delhi"];
+console.log("**string array**");
+for (i = 0; i < array.length; i++) {
+    console.log(array[i]);
+}
+//Union Type and Array
+var array;
+var i;
+array = [1, 2, 4];
+console.log("**numeric array**");
+for (i = 0; i < array.length; i++) {
+    console.log(array[i]);
+}
+array = ["Mumbai", "Pune", "Delhi"];
+console.log("**string array**");
+for (i = 0; i < array.length; i++) {
+    console.log(array[i]);
+}
+var customer = {
+    firstName: "Tom",
+    lastName: "Hanks",
+    sayHi: function () { return "Hi there"; }
+};
+console.log("Customer Object ");
+console.log(customer.firstName);
+console.log(customer.lastName);
+console.log(customer.sayHi());
+var data = {
+    firstName: "Jim",
+    lastName: "Blakes",
+    sayHi: function () { return "Hello!!!"; }
+};
+console.log("Employee  Object ");
+console.log(data.firstName);
+console.log(data.lastName);
+//commandline as string
+var options = { program: "test1", commandline: "Hello" };
+console.log(options.commandline);
+//commandline as a string array
+options = { program: "test1", commandline: ["Hello", "World"] };
+console.log(options.commandline[0]);
+console.log(options.commandline[1]);
+//commandline as a function expression
+options = { program: "test1", commandline: function () { return "**Hello World**"; } };
+var fn = options.commandline;
+console.log(fn());
+var drummer = {};
+drummer.age = 27;
+drummer.instrument = "Drums";
+console.log("Age:  " + drummer.age);
+console.log("Instrument:  " + drummer.instrument);
+var Iobj = { v1: 12, v2: 23 };
+console.log("value 1: " + this.v1 + " value 2: " + this.v2);
+//Accessing Attributes and Functions
+var Car = /** @class */ (function () {
+    //constructor
+    function Car(engine) {
+        this.engine = engine;
+    }
+    //function
+    Car.prototype.disp = function () {
+        console.log("Function displays Engine is  :   " + this.engine);
+    };
+    return Car;
+}());
+//create an object
+var car = new Car("XXSY1");
+//access the field
+console.log("Reading attribute value Engine as :  " + car.engine);
+//access the function
+car.disp();
+//Class Inheritance
+var Shape = /** @class */ (function () {
+    function Shape(a) {
+        this.Area = a;
+    }
+    return Shape;
+}());
+var Circle = /** @class */ (function (_super) {
+    __extends(Circle, _super);
+    function Circle() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    Circle.prototype.display = function () {
+        console.log("Area of the circle:  " + this.Area);
+    };
+    return Circle;
+}(Shape));
+var shap = new Circle(223);
+shap.display();
+//Class inheritance and Method Overriding

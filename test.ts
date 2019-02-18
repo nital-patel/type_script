@@ -205,3 +205,24 @@ function check(x:any,y?:any):void {
 }
 check(1,"abc")
 check(1,"xyz");
+
+//number proptey
+var month = 0
+if( month<=0 || month > 12) {
+    month = Number.NaN
+    console.log("Month is "+ month)
+} else {
+    console.log("value Accepted..")
+}
+
+//ex. prototype
+function employee(id:number,name:string) {
+    this.id = id
+    this.name = name
+}
+var emp = new employee(123,"Smith")
+employee.prototype.email = "smith@abc.com"
+
+console.log("Employee 's Id: "+emp.id)
+console.log("Employee 's name:  "+emp.name)
+console.log("Employee 's Email ID: "+emp.email)

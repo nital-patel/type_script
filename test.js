@@ -389,3 +389,25 @@ var Circle = /** @class */ (function (_super) {
 var shap = new Circle(223);
 shap.display();
 //Class inheritance and Method Overriding
+var PrinterClass = /** @class */ (function () {
+    function PrinterClass() {
+    }
+    PrinterClass.prototype.doPrint = function () {
+        console.log("doPrint() from Parent called…");
+    };
+    return PrinterClass;
+}());
+s;
+var StringPrinter = /** @class */ (function (_super) {
+    __extends(StringPrinter, _super);
+    function StringPrinter() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    StringPrinter.prototype.doPrint = function () {
+        _super.prototype.doPrint.call(this);
+        console.log("doPrint() is printing a string…");
+    };
+    return StringPrinter;
+}(PrinterClass));
+var string = new StringPrinter();
+string.doPrint();

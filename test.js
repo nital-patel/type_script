@@ -439,3 +439,11 @@ var AgriLoan = /** @class */ (function () {
 }());
 var task = new AgriLoan(10, 1);
 console.log("Interest is : " + task.interest + " Rebate is : " + task.rebate);
+//Object Literal Notation
+var person = {
+    firstname: "Tom",
+    lastname: "Hanks"
+};
+//access the object values 
+console.log(person.firstname);
+console.log(person.lastname);

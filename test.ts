@@ -537,8 +537,17 @@ var person = {
     firstname:"Tom",
     lastname:"Hanks"
 };
-//access the object values 
+//access the object values
 console.log(person.firstname)
 console.log(person.lastname)
 
-
+//Typescript Type template
+var datacard = {
+    firstName:"Tom",
+    lastName:"Hanks",
+    sayHello:function() {  }  //Type template 
+}
+datacard.sayHello = function() {
+    console.log("hello "+datacard.firstName)
+}
+datacard.sayHello()

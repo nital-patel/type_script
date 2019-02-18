@@ -508,3 +508,9 @@ StaticMem.num = 12     // initialize the static variable
 StaticMem.disp()      // invoke the static method
 
 
+//The instanceof operator
+class Person{ }
+var message1 = new Person()
+var isPerson = message1 instanceof Person;
+console.log(" obj is an instance of Person " + isPerson);
+

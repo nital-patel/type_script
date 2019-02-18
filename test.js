@@ -421,3 +421,12 @@ var StaticMem = /** @class */ (function () {
 }());
 StaticMem.num = 12; // initialize the static variable
 StaticMem.disp(); // invoke the static method
+//The instanceof operator
+var Person = /** @class */ (function () {
+    function Person() {
+    }
+    return Person;
+}());
+var message1 = new Person();
+var isPerson = message1 instanceof Person;
+console.log(" obj is an instance of Person " + isPerson);

@@ -481,11 +481,10 @@ shap.display()
 
 //Class inheritance and Method Overriding
 class PrinterClass {
-    doPrint():void {
+    doPrint(): void {
         console.log("doPrint() from Parent called…")
     }
 }
-s
 class StringPrinter extends PrinterClass {
     doPrint():void {
         super.doPrint()
@@ -495,3 +494,17 @@ class StringPrinter extends PrinterClass {
 
 var string = new StringPrinter()
 string.doPrint()
+
+//The static Keyword
+class StaticMem {
+    static num:number;
+
+    static disp():void {
+        console.log("The value of num is"+ StaticMem.num)
+    }
+}
+
+StaticMem.num = 12     // initialize the static variable
+StaticMem.disp()      // invoke the static method
+
+

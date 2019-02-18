@@ -397,7 +397,6 @@ var PrinterClass = /** @class */ (function () {
     };
     return PrinterClass;
 }());
-s;
 var StringPrinter = /** @class */ (function (_super) {
     __extends(StringPrinter, _super);
     function StringPrinter() {
@@ -411,3 +410,14 @@ var StringPrinter = /** @class */ (function (_super) {
 }(PrinterClass));
 var string = new StringPrinter();
 string.doPrint();
+//The static Keyword
+var StaticMem = /** @class */ (function () {
+    function StaticMem() {
+    }
+    StaticMem.disp = function () {
+        console.log("The value of num is" + StaticMem.num);
+    };
+    return StaticMem;
+}());
+StaticMem.num = 12; // initialize the static variable
+StaticMem.disp(); // invoke the static method

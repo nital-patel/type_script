@@ -430,3 +430,12 @@ var Person = /** @class */ (function () {
 var message1 = new Person();
 var isPerson = message1 instanceof Person;
 console.log(" obj is an instance of Person " + isPerson);
+var AgriLoan = /** @class */ (function () {
+    function AgriLoan(interest, rebate) {
+        this.interest = interest;
+        this.rebate = rebate;
+    }
+    return AgriLoan;
+}());
+var task = new AgriLoan(10, 1);
+console.log("Interest is : " + task.interest + " Rebate is : " + task.rebate);

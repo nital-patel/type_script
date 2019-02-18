@@ -175,3 +175,9 @@ var disp = function () {
     console.log("Function invoked");
 };
 disp();
+function check(x, y) {
+    console.log(x);
+    console.log(y);
+}
+check(1, "abc");
+check(1, "xyz");

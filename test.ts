@@ -193,3 +193,15 @@ var disp =()=> {
     console.log("Function invoked");
 }
 disp();
+
+//Function Overload
+function check(s1:string):void;
+function check(s1:string):void;
+function check(n1:number,s1:string):void;
+
+function check(x:any,y?:any):void {
+    console.log(x);
+    console.log(y);
+}
+check(1,"abc")
+check(1,"xyz");
